@@ -1,6 +1,5 @@
-import moment from "moment";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-console.log(
-    'Ayeeeoooo from Javascript',
-    moment().startOf('day').fromNow()
-)
+ReactDOM.render(<App />, document.getElementById('App'));
