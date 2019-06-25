@@ -1,9 +1,13 @@
 module.exports = {
     mode: 'development',
-    entry: './index.js', // arquivo a ser carregado
+    entry: './src/index.js', // arquivo a ser carregado
     output: {
       filename: 'main.js',
       publicPath: 'dist'
+    },
+    devServer: {
+      contentBase: './src',
+      watchContentBase: true
     },
     module: {
       rules: [

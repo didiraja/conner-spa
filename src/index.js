@@ -1,6 +1,6 @@
 import moment from "moment";
 
 console.log(
-    'Ayeeeee from Javascript',
+    'Ayeeeoooo from Javascript',
     moment().startOf('day').fromNow()
 )
