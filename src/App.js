@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 
+import './index.styl'
+
 class App extends Component {
     constructor() {
       super();
     }
     render() {
       return (
-        <h1>Oyeee Mundo!</h1>  
+        <h1>Olaaa Mundo!</h1>  
       );
     }
   }

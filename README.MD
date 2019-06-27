@@ -6,3 +6,4 @@ Boilerplate for SPA with React (for now)
     - Hot Module
 - Babel
 - React 16
+- Stylus
