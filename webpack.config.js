@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 module.exports = {
     mode: 'development',
     entry: './src/index.js', // arquivo a ser carregado
@@ -5,10 +7,14 @@ module.exports = {
       filename: 'main.js',
       publicPath: 'dist'
     },
+    plugins: [
+      new webpack.HotModuleReplacementPlugin()
+    ],
     devServer: {
+      hot: true,
       contentBase: './src',
       watchContentBase: true
-    },
+    }, 
     module: {
       rules: [
         { // babel + webpack
