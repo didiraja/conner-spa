@@ -16,6 +16,15 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(png|jpe?g|gif)$/, // carrega imagens
+        use: [
+          {
+            loader: 'file-loader',
+            options: {},
+          },
+        ],
+      },
+      {
         test: /\.(css|styl)$/, // stylus renderizando direto no head
         use: ['style-loader', 'css-loader', 'stylus-loader']
       },
