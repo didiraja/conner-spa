@@ -6,4 +6,6 @@ Boilerplate for SPA with React (for now)
     - Hot Module
 - Babel
 - React 16
+    - React-Markdown
+    - SVG Inliner
 - Stylus
